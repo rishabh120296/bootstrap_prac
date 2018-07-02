@@ -1,0 +1,70 @@
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+
+.carousel-caption {
+  font-size: 24px;
+  right: 19%;
+  bottom: 60%
+}
+
+.carousel-caption h4{
+  font-size: 32px;
+}
+
+#slide1 {
+  background: url("hero_img.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#slide2 {
+  background: url("hero_img2.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#slide3 {
+  background: url("hero_img3.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 16px;
+    right: 15%;
+  }
+  
+  .carousel-caption h4 {
+    font-size: 22px; 
+    right: 15%;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-caption {
+    font-size: 8px;
+  }
+  
+  .carousel-caption h4 {
+    font-size: 12px; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-caption {
+    font-size: 24px;
+  }
+   
+  .carousel-caption h4 {
+    font-size: 32px; 
+  }
+}
