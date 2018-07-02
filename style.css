@@ -1,6 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;
-  margin: 0px;
+  color: white;
 }
 
 .carousel-caption {
@@ -50,15 +50,10 @@ body{
 
 #home-section .home-inner{
   padding-top: 150px;
-  
-}
-
-#home-section .home-inner h1{
-  color: white;
 }
 
 #home-section .home-inner h2{
-  color: white;
+  font-family: 'Caveat', cursive;
 }
 
 #home-section .dark-overlay{
@@ -68,36 +63,4 @@ body{
   left: 0;
   width: 100%;
   min-height: 700px;
-}
-
-@media (max-width: 768px) {
-  .carousel-caption {
-    font-size: 16px;
-    right: 15%;
-  }
-  
-  .carousel-caption h4 {
-    font-size: 22px; 
-    right: 15%;
-  }
-}
-
-@media (max-width: 500px) {
-  .carousel-caption {
-    font-size: 8px;
-  }
-  
-  .carousel-caption h4 {
-    font-size: 12px; 
-  }
-}
-
-@media (min-width: 1200px) {
-  .carousel-caption {
-    font-size: 24px;
-  }
-   
-  .carousel-caption h4 {
-    font-size: 32px; 
-  }
 }
