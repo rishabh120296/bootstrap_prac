@@ -6,49 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Home - Mission X</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Caveat:700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
 </head>
 
 <body>
+  <section id="showcase">
+    <div class="carousel slide" id="myCarousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel"></li>
+        <li data-slide-to="2" data-target="#myCarousel"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="slide1">
+          <div class="carousel-caption">
+            <h1 class="display-6">Mission
+              <i class="fab fa-xing-square"></i>
+            </h1>
+            <p class="lead">Making History since 1908</p>
+            <a href="about.html" class="btn btn-light btn-sm">Launch</a>
+          </div>
+        </div>
+        <div class="carousel-item" id="slide2">
+          <div class="carousel-caption">
+            <h1 class="display-6">Mission
+              <i class="fab fa-xing-square"></i>
+            </h1>
+            <p class="lead">Making History since 1908</p>
+            <a href="about.html" class="btn btn-light btn-sm">Launch</a>
+          </div>
+        </div>
+        <div class="carousel-item" id="slide3">
+          <div class="carousel-caption">
+            <h1 class="display-6">Mission
+              <i class="fab fa-xing-square"></i>
+            </h1>
+            <p class="lead">Making History since 1908</p>
+            <a href="about.html" class="btn btn-light btn-sm">Launch</a>
+          </div>
+        </div>
 
-  <div class="carousel slide" id="myCarousel">
-    <ol class="carousel-indicators">
-      <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-      <li class="active" data-slide-to="1" data-target="#myCarousel"></li>
-      <li class="active" data-slide-to="2" data-target="#myCarousel"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item active" id="slide1">
-        <div class="carousel-caption">
-          <h4>Mission <i class="fab fa-xing-square"></i> </h4>
-          <p>Making History since 1908</p>
-        </div>
-      </div>
-      <div class="item" id="slide2">
-        <div class="carousel-caption">
-          <h4>Mission <i class="fab fa-xing-square"></i> </h4>
-          <p>Dragon arrives at the hangar in Cape Canaveral</p>
-        </div>
-      </div>
-      <div class="item" id="slide3">
-        <div class="carousel-caption">
-          <h4>Mission <i class="fab fa-xing-square"></i></h4>
-          <p>Falcon 9 and Dragon roll out</p>
-        </div>
-      </div>
+      <a class="carousel-control-prev" data-slide="prev" href="#myCarousel">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" data-slide="next" href="#myCarousel">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+
     </div>
-
-    <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-    <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
-
-
-  </div>
+  </section>
 </body>
 
 </html>

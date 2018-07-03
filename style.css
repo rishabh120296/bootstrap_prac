@@ -4,13 +4,19 @@ body{
 }
 
 .carousel-caption {
-  font-size: 24px;
-  right: 19%;
-  bottom: 60%
+  bottom: 60%;
 }
 
-.carousel-caption h4{
-  font-size: 32px;
+.btn-light {
+  padding: 0.5em 3em;
+  border: 0.16em solid #FFFFFF;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  background: transparent;
+  bottom: 20%;
+  color: white;
 }
 
 #slide1 {
