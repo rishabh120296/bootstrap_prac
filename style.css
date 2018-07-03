@@ -62,7 +62,7 @@ body{
   font-family: 'Marck Script', cursive;
 }
 
-#home-section .dark-overlay{
+.dark-overlay{
   background-color: rgba(0,0,0,0.3);
   position: absolute;
   top: 0;
@@ -71,15 +71,46 @@ body{
   min-height: 700px;
 }
 
+#facts{
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("facts_bg.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  color: black;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
-#facts {
-  color: black;
+#future{
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("future_bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
 }
+
+#contact{
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("contact_bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#gallery .inner{
+  color: black;
+  padding-top: 50px;
+}
+                  
