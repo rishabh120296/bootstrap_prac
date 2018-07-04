@@ -19,28 +19,23 @@ body{
   color: white;
 }
 
-#slide1 {
-  background: url("hero_img.jpg");
+.slides{
   width: 100vw;
   height: 100vh;
   background-position: center;
   background-size: cover;
+}
+
+#slide1 {
+  background: url("../img/hero_img.jpg");
 }
 
 #slide2 {
-  background: url("hero_img2.jpg");
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+  background: url("../img/hero_img2.jpg");
 }
 
 #slide3 {
-  background: url("hero_img3.jpg");
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+  background: url("../img/hero_img3.jpg");
 }
 
 .navbar {
@@ -48,7 +43,7 @@ body{
 }
 
 #home-section {
-  background: url("vision-1.jpg") no-repeat;
+  background: url("../img/vision-1.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
@@ -75,7 +70,7 @@ body{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
-                     url("facts_bg.jpeg") no-repeat;
+                     url("../img/facts_bg.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
@@ -93,7 +88,7 @@ body{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
-                     url("future_bg.jpg") no-repeat;
+                     url("../img/future_bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
@@ -103,10 +98,18 @@ body{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
-                     url("contact_bg.jpg") no-repeat;
+                     url("../img/contact_bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
+}
+
+.link-text {
+  color: #ccac55;
+}
+
+.link-text:hover {
+  color: #635a41;
 }
 
 #gallery .inner{
