@@ -3,10 +3,12 @@ body{
   color: white;
 }
 
+/* To shift the carousel caption upwards */
 .carousel-caption {
   bottom: 60%;
 }
 
+/* To change the styling of Launch button on Home page */
 .btn-light {
   padding: 0.5em 3em;
   border: 0.16em solid #FFFFFF;
@@ -19,6 +21,7 @@ body{
   color: white;
 }
 
+/* Carousel Slide 1 */
 #slide1 {
   background: url("../img/hero_img.jpg");
   width: 100vw;
@@ -27,6 +30,7 @@ body{
   background-size: cover;
 }
 
+/* Carousel Slide 2 */
 #slide2 {
   background: url("../img/hero_img2.jpg");
   width: 100vw;
@@ -35,6 +39,7 @@ body{
   background-size: cover;
 }
 
+/* Carousel Slide 3 */
 #slide3 {
   background: url("../img/hero_img3.jpg");
   width: 100vw;
@@ -43,10 +48,12 @@ body{
   background-size: cover;
 }
 
+/* Give a yellow bottom border to navbar */
 .navbar {
   border-bottom: #ccac55 3px solid;
 }
 
+/*Background for vision section */
 #home-section {
   background: url("../img/vision-1.jpg") no-repeat;
   background-size: cover;
@@ -54,6 +61,7 @@ body{
   min-height: 700px;
 }
 
+/*Bring the vision section down from the navbar */
 #home-section .home-inner{
   padding-top: 150px;
 }
@@ -62,6 +70,7 @@ body{
   font-family: 'Marck Script', cursive;
 }
 
+/* For giving dark overlay effect to all background images */
 .dark-overlay{
   background-color: rgba(0,0,0,0.3);
   position: absolute;
@@ -71,6 +80,7 @@ body{
   min-height: 700px;
 }
 
+/* Background for facts section */
 #facts{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
@@ -80,6 +90,8 @@ body{
   background-attachment: fixed;
   min-height: 700px;
 }
+
+/* Give shadow to all cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   color: black;
@@ -89,6 +101,7 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Background for future section */
 #future{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
@@ -99,6 +112,7 @@ body{
   min-height: 700px;
 }
 
+/* Background for contact section */
 #contact{
   background: linear-gradient(
                      rgba(20,20,20, .5), 
@@ -109,6 +123,7 @@ body{
   min-height: 700px;
 }
 
+/* Make the contact section links appear yellow */
 .link-text {
   color: #ccac55;
 }
@@ -117,6 +132,7 @@ body{
   color: #635a41;
 }
 
+/*Text in gallery section black and padding for bringing down form nav */
 #gallery .inner{
   color: black;
   padding-top: 50px;
